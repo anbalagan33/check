@@ -11,6 +11,7 @@ const orders = require('./routes/order');
 
 connectDatabase();
 
+//testing
 app.use(express.json());
 app.use(cors());
 app.use('/api/v1/',products);
